@@ -1,0 +1,66 @@
+[0.010s] Invoking command in '/home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/build/ros2_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029 -DCMAKE_INSTALL_PREFIX=/home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher
+[0.182s] -- The C compiler identification is GNU 13.3.0
+[0.305s] -- The CXX compiler identification is GNU 13.3.0
+[0.341s] -- Detecting C compiler ABI info
+[0.463s] -- Detecting C compiler ABI info - done
+[0.474s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.475s] -- Detecting C compile features
+[0.475s] -- Detecting C compile features - done
+[0.487s] -- Detecting CXX compiler ABI info
+[0.594s] -- Detecting CXX compiler ABI info - done
+[0.607s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.607s] -- Detecting CXX compile features
+[0.608s] -- Detecting CXX compile features - done
+[0.615s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.727s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.828s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.891s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.902s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.917s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.932s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.992s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.995s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.098s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.131s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.156s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.218s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.230s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.313s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.316s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.316s] -- Configured cppcheck include dirs: 
+[1.316s] -- Configured cppcheck exclude dirs and/or files: 
+[1.319s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.319s] -- Configured cpplint exclude dirs and/or files: 
+[1.320s] -- Added test 'lint_cmake' to check CMake code style
+[1.324s] -- Added test 'uncrustify' to check C / C++ code style
+[1.324s] -- Configured uncrustify additional arguments: 
+[1.325s] -- Added test 'xmllint' to check XML markup files
+[1.326s] -- Configuring done (1.3s)
+[1.331s] -- Generating done (0.0s)
+[1.334s] -- Build files have been written to: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/build/ros2_publisher
+[1.341s] Invoked command in '/home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/build/ros2_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029 -DCMAKE_INSTALL_PREFIX=/home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher
+[1.341s] Invoking command in '/home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/build/ros2_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/build/ros2_publisher -- -j12 -l12
+[1.390s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o[0m
+[3.818s] [100%] [32m[1mLinking CXX executable publisher_node[0m
+[3.946s] [100%] Built target publisher_node
+[3.958s] Invoked command in '/home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/build/ros2_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/build/ros2_publisher -- -j12 -l12
+[3.970s] Invoking command in '/home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/build/ros2_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/build/ros2_publisher
+[3.978s] -- Install configuration: ""
+[3.979s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/lib/ros2_publisher/publisher_node
+[3.979s] -- Set non-toolchain portion of runtime path of "/home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/lib/ros2_publisher/publisher_node" to ""
+[3.979s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ament_index/resource_index/package_run_dependencies/ros2_publisher
+[3.979s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ament_index/resource_index/parent_prefix_path/ros2_publisher
+[3.979s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ros2_publisher/environment/ament_prefix_path.sh
+[3.980s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ros2_publisher/environment/ament_prefix_path.dsv
+[3.980s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ros2_publisher/environment/path.sh
+[3.980s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ros2_publisher/environment/path.dsv
+[3.980s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ros2_publisher/local_setup.bash
+[3.980s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ros2_publisher/local_setup.sh
+[3.980s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ros2_publisher/local_setup.zsh
+[3.980s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ros2_publisher/local_setup.dsv
+[3.980s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ros2_publisher/package.dsv
+[3.980s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ament_index/resource_index/packages/ros2_publisher
+[3.980s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ros2_publisher/cmake/ros2_publisherConfig.cmake
+[3.980s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ros2_publisher/cmake/ros2_publisherConfig-version.cmake
+[3.981s] -- Installing: /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/install/ros2_publisher/share/ros2_publisher/package.xml
+[3.981s] Invoked command in '/home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/build/ros2_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/malladi-sujith-babu/ros2_ws/src/assignment-ros2-c-publisher-node-sujithmalladi-029/build/ros2_publisher
